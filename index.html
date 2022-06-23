@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8" />
+  <title>HTML5</title>
+  <style>
+    body {
+   
+    position: absolute;
+    width: 1440px;
+    height: 937px;
+    background: #FFFFFF;
+}
+h1{
+  position: absolute;
+width: 672px;
+height: 96px;
+left: 385px;
+top: 108px;
+
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 700;
+font-size: 72px;
+line-height: 96px;
+text-align: center;
+color: #000000;
+}
+form{
+    position: absolute;
+width: 1440px;
+height: 937px;
+}
+#nameField{
+    box-sizing: border-box;
+position: absolute;
+width: 505px;
+height: 54px;
+left: 467.5px;
+top: 258px;
+border: 1px solid #C4C4C4;
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 24px;
+color: #C4C4C4;
+}
+#mail{
+    box-sizing: border-box;
+position: absolute;
+width: 505px;
+height: 54px;
+left: 467.5px;
+top: 339.5px;
+border: 1px solid #30ABAE;
+border: 1px solid #C4C4C4;
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 24px;
+color: #C4C4C4;
+
+}
+#messageField{
+    box-sizing: border-box;
+position: absolute;
+width: 505px;
+height: 186px;
+left: 467.5px;
+top: 421px;
+
+border: 1px solid #C4C4C4;
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 24px;
+color: #C4C4C4;
+}
+input[type=submit]{
+    box-sizing: border-box;
+position: absolute;
+width: 295px;
+height: 55.5px;
+left: 572.5px;
+top: 644.5px;
+background: #30ABAE;
+border-radius: 3px ;
+border: none;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 25px;
+
+letter-spacing: 0.05em;
+
+color: #FFFFFF;
+}
+
+
+  </style>
+ </head>
+ <body>
+ <h1> Зв'язатись зі мною </h1>
+<form method="post"  action="/im/">
+    
+    <input type="text" id="nameField" value ="Ім'я"  name="name">
+    <br>
+    <br>
+    <input type="email" id="mail" value ="Email"  name="user_email">
+    <br>
+    <br>
+    <textarea name="message" id="messageField"  rows="10">Напиши мені щось</textarea>
+    <br>
+    <input type="submit" value="Надіслати">
+</form>
+ </body>
+</html>
